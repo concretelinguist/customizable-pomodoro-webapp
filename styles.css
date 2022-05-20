@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(255, 157, 173);
+    color: rgb(255, 239, 239);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+#timer-header {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.timer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.circular-timer-border {
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    border-radius: 50%;
+    border-color: rgb(255, 239, 239);
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer-display {
+    font-size: 33px;
+}
