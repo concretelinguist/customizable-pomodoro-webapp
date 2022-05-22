@@ -30,24 +30,3 @@ function displayTime(totalSeconds){
     let x = document.getElementById("timer-display").innerHTML =  displayMinutes + ":" + displaySeconds;
 }
 
-// function that decrements the time by 1 second
-function timePass(totalSeconds){
-    totalSeconds -=1;
-}
-
-function countdown(totalSeconds){
-    displayTime(totalSeconds);
-}
-
-let totalSeconds = 127;
-countdown(totalSeconds);
-timePass(totalSeconds);
-
-function main() {
-    setInterval(function() {
-        countdown(totalSeconds);
-        timePass(totalSeconds);
-    }, 1000);
-}
-
-//
