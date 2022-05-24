@@ -1,5 +1,6 @@
 let totalSeconds = 120;
 
+//displays timer countdown of minutes and seconds
 function displayTime(){
     const countdown = setInterval(function(){
         if (totalSeconds == 0){
@@ -18,4 +19,24 @@ function displayTime(){
         //update total seconds remaining by 1
         totalSeconds -=1;
     }, 1000);
+}
+
+//color theme button function
+function themeChange(id){
+    //retrieve theme button id
+    let theme = id;
+    switch(theme){
+        case 'lofi-theme-btn':
+            //set lofi theme hex color as a string
+            let lofiColor = "#CEF1BD";
+            //update color
+            document.body.style.backgroundColor = lofiColor;
+            break;
+        case 'rock-theme-btn':
+            //set rock theme hex color as a string
+            let rockColor = "#110074";
+            //update color
+            document.body.style.backgroundColor = rockColor;
+            break;
+    }
 }
