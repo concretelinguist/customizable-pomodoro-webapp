@@ -1,4 +1,4 @@
-let totalSeconds = 120;
+let totalSeconds = 1500;
 
 //displays timer countdown of minutes and seconds
 function displayTime(){

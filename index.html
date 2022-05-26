@@ -15,11 +15,11 @@
         <button id="lofi-theme-btn" class="theme-btn" onclick="themeChange(this.id)">Lofi</button>
         <button id="rock-theme-btn" class="theme-btn" onclick="themeChange(this.id)">Rock</button>
         <div class="circular-timer-border">
-            <p id="timer-display">02:00</p>
+            <p id="timer-display"></p>
         </div>
         <div class="timer-play">
             <button id="play-btn">Play</button>
-            <audio controls autoplay loop onplay="displayTime()">
+            <audio controls loop onplay="displayTime()">
                 <source src="audio/summer-lofiBysfrecords.mp3" type="audio/mpeg"/>
             </audio>
         </div>
