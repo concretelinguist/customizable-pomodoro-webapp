@@ -9,3 +9,4 @@ What I learned to implement in the process:
 * DOM manipulation
 * Modulus operator for time calculation
 * Nested functions
+* Set audio play
