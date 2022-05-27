@@ -26,6 +26,25 @@ body {
     font-size: 15px;
 }
 
+.theme-timer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#theme-btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.theme-btn {
+    width: 95px;
+    border-radius: 20px;
+    color: rgb(255, 239, 239);
+    background-image: linear-gradient(to right, #f837c8, #fd6969);
+}
+
 .circular-timer-border {
     width: 200px;
     height: 200px;

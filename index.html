@@ -11,11 +11,14 @@
     <div class="timer-container">
         <h2 id="timer-header">Pomodoro Timer</h2>
         <p class="text">Click on theme to change lofi and background!</p>
-        <button class="theme-btn">Theme</button>
-        <button id="lofi-theme-btn" class="theme-btn" onclick="themeChange(this.id)">Lofi</button>
-        <button id="rock-theme-btn" class="theme-btn" onclick="themeChange(this.id)">Rock</button>
-        <div class="circular-timer-border">
-            <p id="timer-display"></p>
+        <div class="theme-timer-container">
+            <div id="theme-btn-container">
+                <button id="lofi-theme-btn" class="theme-btn" onclick="themeChange(this.id)">Lofi</button>
+                <button id="rock-theme-btn" class="theme-btn" onclick="themeChange(this.id)">Rock</button>
+            </div>
+            <div class="circular-timer-border">
+                <p id="timer-display"></p>
+            </div>
         </div>
         <div class="timer-play">
             <button id="play-btn">Play</button>
