@@ -73,3 +73,26 @@ button {
 #play-btn {
     font-size: 20px;
 }
+
+.duration-btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.duration-text {
+    margin-bottom: 0px;
+}
+
+#duration-btn-holder {
+    display: flex;
+    gap: 16px;
+}
+
+.duration-btn {
+    width: 95px;
+    border-radius: 20px;
+    color: rgb(255, 239, 239);
+    background-image: linear-gradient(to right, #f837c8, #fd6969);
+}
