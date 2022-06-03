@@ -96,3 +96,11 @@ button {
     color: rgb(255, 239, 239);
     background-image: linear-gradient(to right, #f837c8, #fd6969);
 }
+
+.play-circle {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
